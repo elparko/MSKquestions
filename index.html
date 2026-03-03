@@ -1,80 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MSK Questions | Conquer Musculoskeletal Medicine</title>
-    <meta name="description" content="A comprehensive question bank and learning platform for musculoskeletal medicine.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="background-elements">
-        <div class="circle circle-1"></div>
-        <div class="circle circle-2"></div>
-    </div>
-
-    <header class="glass-header">
-        <div class="container header-container">
-            <h1 class="logo">MSK<span>Questions</span></h1>
-            <nav>
-                <button class="btn btn-secondary">Dashboard</button>
-                <button class="btn btn-primary">Start Quiz</button>
-            </nav>
-        </div>
-    </header>
-
-    <main class="container">
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Master Musculoskeletal Anatomy & Patho</h2>
-                <p>Sharpen your diagnostic skills with our premium case-based question bank designed for medical professionals.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span class="stat-value">500+</span>
-                        <span class="stat-label">Questions</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">12</span>
-                        <span class="stat-label">Categories</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="question-container glass-panel">
-            <div class="question-header">
-                <span class="tag">Topic: Shoulder</span>
-                <span class="difficulty hard">Difficulty: Hard</span>
-            </div>
-            
-            <h3 class="question-text">
-                A 45-year-old male presents with shoulder pain and weakness, particularly when lifting tasks overhead. Examination reveals a positive "drop arm sign." Which of the following tendons is most likely injured?
-            </h3>
-
-            <div class="options" id="options-container">
-                <button class="option-btn" data-correct="false">A. Subscapularis</button>
-                <button class="option-btn" data-correct="true">B. Supraspinatus</button>
-                <button class="option-btn" data-correct="false">C. Infraspinatus</button>
-                <button class="option-btn" data-correct="false">D. Teres minor</button>
-            </div>
-
-            <div class="feedback hidden" id="feedback-panel">
-                <h4 id="feedback-title">Result</h4>
-                <p id="feedback-text">Explanation goes here.</p>
-                <button class="btn btn-primary next-btn">Next Question &rarr;</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 MSK Questions. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mskquestions</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
